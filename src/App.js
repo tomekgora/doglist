@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import DogsList from './components/DogList';
+import DogsListContainer from './components/DogList';
+
+
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
       </header>
       <main className="App-main">
-        <DogsList/>
+        <DogsListContainer/>
 
       </main>
     </div>
